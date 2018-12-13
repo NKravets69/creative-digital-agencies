@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'Gotham Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gotham Book'), url('./fonts/GothamBook.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Gotham Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gotham Medium'), url('./fonts/GothamMedium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Gotham Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gotham Bold'), url('./fonts/GothamBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'MYRIADPROREGULAR';
+    src: url('./fonts/MYRIADPROREGULAR.eot');
+    src: local('MYRIADPROREGULAR'), url('./fonts/MYRIADPROREGULAR.woff') format('woff'), url('./fonts/MYRIADPROREGULAR.ttf') format('truetype');
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gotham Medium';
+    font-weight: normal;
+    color: white;
+}
+
+.header-background-img {
+    background: url('./img/header-background-img.png') no-repeat;
+}
+
+.block-height {
+    height: 560px;
+}
+
+.navbar-brand img {
+    width: 57px;
+}
+
+.container-fluid-no-padding {
+    padding: 0;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.dark-blue {
+    color: #11749e;
+}
+
+hr {
+    margin: 0;
+}
+
+.navbar-dark .navbar-toggler {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    border-bottom: 2px solid #11749e;
+}
+
+.h2, h2 {
+    font-size: 45px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.letter-spacing {
+    letter-spacing: 2px;
+}
+
+.creatives {
+    padding-left: 0;
+    margin-top: 100px;
+}
+
+.button-arrow {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    outline: none;
+    padding-top: 5px;
+    margin-top: 100px;
+}
+
+.block-two-background-img {
+    background-color: #11749e;
+}
+
+.h3, h3 {
+    font-size: 20px;
+}
+
+.h4, h4 {
+    font-size: 18px;
+}
+
+.font-p {
+    font-size: 15px;
+}
+
+.font-awesome {
+    border-radius: 50%;
+    background-color: rgb(46, 133, 170);
+    width: 95px;
+    height: 95px;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.large-letters {
+    font-size: 190px;
+    font-family: "Roboto";
+    color: rgba(255, 255, 255, 0.18);
+    font-weight: bold;
+    line-height: 0.852;
+    text-align: center;
+   
+}
+.large-letters-color{
+    color: #d7d7d7;
+    margin: 0;
+}
+.h3-position {
+    font-size: 20px;
+    font-family: "Gotham";
+    margin-top: -80px;
+}
+.h3-position-white-block{
+    font-size: 20px;
+    font-family: "Gotham";
+    position: relative;
+    top: -100px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.bg-block-3 {
+    background-color: #222222;
+}
+
+.culture-span {
+    font-size: 13px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    line-height: 1.846;
+}
+
+.p-block {
+    font-size: 15px;
+    font-family: "Gotham";
+    color: rgb(255, 255, 255);
+}
+
+.bg-block-3-pt-2 {
+    background-color: #f3f3f3;
+}
+
+.card {
+    border: 0;
+    border-radius: 0;
+}
+
+.bg-block-5 {
+    background-color: #11749e;
+}
+
+.pencil {
+    background: 0;
+    font-size: 65px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.bg-block-6 {
+    background-image: url(./img/bottom-bg-img.png);
+}
+
+.font-family-h5 {
+    font-family: "Gotham";
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.form-control-bg {
+    background: 0;
+}
+
+.block-eight-background-img {
+    background-image: url(./img/juse.png);
+}
+
+.btn-submit {
+    font-size: 24px;
+    font-family: "Gotham";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1;
+    background-color: rgb(17, 116, 158);
+    width: 200px;
+    height: 55px;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+}
+
+.last-bg {
+    background-color: #222222;
+}
+.card-position{
+    position: relative;
+    bottom: 55px;
+    border: 1px solid white;
+    background-color: white;
+    width: 200px;
+}
